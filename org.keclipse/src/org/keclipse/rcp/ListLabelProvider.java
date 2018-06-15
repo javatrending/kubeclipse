@@ -1,4 +1,4 @@
-package org.keclipse.utils.rcp;
+package org.keclipse.rcp;
 
 import org.eclipse.jface.viewers.ITableLabelProvider;
 import org.eclipse.jface.viewers.LabelProvider;

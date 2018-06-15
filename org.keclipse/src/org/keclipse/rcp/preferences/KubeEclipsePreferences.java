@@ -1,4 +1,4 @@
-package org.keclipse.utils.rcp.preferences;
+package org.keclipse.rcp.preferences;
 
 import org.eclipse.jface.preference.FieldEditorPreferencePage;
 import org.eclipse.jface.preference.FileFieldEditor;

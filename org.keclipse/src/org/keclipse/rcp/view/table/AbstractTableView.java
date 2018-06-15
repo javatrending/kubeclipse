@@ -1,4 +1,4 @@
-package org.keclipse.view.table;
+package org.keclipse.rcp.view.table;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;
@@ -25,9 +25,9 @@ import org.eclipse.ui.actions.ActionFactory.IWorkbenchAction;
 import org.eclipse.ui.part.ViewPart;
 import org.keclipse.Activator;
 import org.keclipse.k8.access.KubeAccess;
-import org.keclipse.utils.rcp.ListContentProvider;
-import org.keclipse.utils.rcp.ListLabelProvider;
-import org.keclipse.utils.rcp.RCPUtils;
+import org.keclipse.rcp.ListContentProvider;
+import org.keclipse.rcp.ListLabelProvider;
+import org.keclipse.rcp.RCPUtils;
 
 /**
  * The base class for the Table for all the k8 objects

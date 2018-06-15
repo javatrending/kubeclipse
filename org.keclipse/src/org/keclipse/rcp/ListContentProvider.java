@@ -1,4 +1,4 @@
-package org.keclipse.utils.rcp;
+package org.keclipse.rcp;
 
 import java.util.List;
 

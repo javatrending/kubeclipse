@@ -1,4 +1,4 @@
-package org.keclipse.utils.rcp.perspective;
+package org.keclipse.rcp.perspective;
 
 
 import java.util.List;

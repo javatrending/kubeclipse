@@ -1,4 +1,4 @@
-package org.keclipse.utils.rcp;
+package org.keclipse.rcp;
 
 import org.eclipse.core.commands.ExecutionEvent;
 import org.eclipse.jface.dialogs.IMessageProvider;
