@@ -9,4 +9,20 @@
              name="Kubeclipse">
        </page>
     </extension>
+    <extension
+         point="org.eclipse.ui.views">
+         <category
+            name="KubeEclipse"
+            id="org.keclipse.k8">
+     	 </category>
+     	 <view
+            name="Kubernetes Nodes"
+            inject="true"
+            allowMultiple="true"
+            icon="icons/page_refresh.gif"
+            category="org.keclipse.k8"
+            class="org.keclipse.rcp.view.table.KubeNodes"
+            id="org.keclipse.rcp.view.table.KubeNodes">
+      	</view>
+      	</extension>
 </plugin>
