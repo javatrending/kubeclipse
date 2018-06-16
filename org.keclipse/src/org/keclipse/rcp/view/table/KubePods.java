@@ -15,6 +15,8 @@ import io.kubernetes.client.models.V1Pod;
  */
 public class KubePods extends AbstractTableView {
 
+	public static final String ID = KubePods.class.getName();
+
 	@Override
 	public Map<Integer, String> getProperties(Object element) {
 		Map<Integer, String> mmap = new HashMap<Integer, String>();

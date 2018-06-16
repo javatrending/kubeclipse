@@ -10,6 +10,7 @@ import io.kubernetes.client.models.V1PersistentVolumeClaim;
 
 public class KubePersistentVolumeClaims extends AbstractTableView {
 
+	public static final String ID = KubePersistentVolumeClaims.class.getName();
 
 	@Override
 	public Map<Integer, String> getProperties(Object element) {

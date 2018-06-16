@@ -14,6 +14,7 @@ import io.kubernetes.client.models.V1Endpoints;
  */
 public class KubeEndPoints extends AbstractTableView {
 
+	public static final String ID = KubeEndPoints.class.getName();
 	@Override
 	public Map<Integer, String> getProperties(Object element) {
 		Map<Integer, String> mmap = new HashMap<Integer, String>();

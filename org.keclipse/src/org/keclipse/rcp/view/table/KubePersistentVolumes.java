@@ -9,6 +9,7 @@ import io.kubernetes.client.models.V1PersistentVolume;
 
 public class KubePersistentVolumes extends AbstractTableView {
 
+	public static final String ID = KubePersistentVolumes.class.getName();
 	@Override
 	public Map<Integer, String> getProperties(Object element) {
 		Map<Integer, String> mmap = new HashMap<Integer, String>();

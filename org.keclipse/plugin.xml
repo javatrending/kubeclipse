@@ -70,4 +70,25 @@
             id="org.keclipse.rcp.view.table.KubePersistentVolumeClaims">
       	</view>
       	</extension>
+      	<extension
+         point="org.eclipse.ui.perspectives">
+      	<perspective
+            class="org.keclipse.rcp.perspective.KubeNodesPodsPerspective"
+            icon="icons/control-forward.gif"
+            id="org.keclipse.rcp.perspective.KubeNodesPodsPerspective"
+            name="K8 Nodes and Pods">
+      	</perspective>
+      	<perspective
+            class="org.keclipse.rcp.perspective.KubePersistencePerspective"
+            icon="icons/page_settings.gif"
+            id="org.keclipse.rcp.perspective.KubePersistencePerspective"
+            name="K8 PV and PVC">
+      	</perspective>
+      	<perspective
+            class="org.keclipse.rcp.perspective.KubeServiceEndpointsPerspective"
+            icon="icons/page_wizard.gif"
+            id="org.keclipse.rcp.perspective.KubeServiceEndpointsPerspective"
+            name="K8 Services and Endpoints">
+      	</perspective>
+      </extension>
 </plugin>

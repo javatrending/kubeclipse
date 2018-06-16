@@ -31,6 +31,7 @@ import org.keclipse.rcp.RCPUtils;
 
 /**
  * The base class for the Table for all the k8 objects
+ * 
  * @author vibhu.pratap
  *
  */
@@ -43,6 +44,7 @@ abstract public class AbstractTableView extends ViewPart {
 
 	/**
 	 * Label Provider
+	 * 
 	 * @author vibhu.pratap
 	 *
 	 */
@@ -58,9 +60,9 @@ abstract public class AbstractTableView extends ViewPart {
 			}
 		}
 	}
+
 	/**
-	 * Create the part control that will be created when the view
-	 * gets activated
+	 * Create the part control that will be created when the view gets activated
 	 */
 	public void createPartControl(Composite parent) {
 		createViewer(parent);
@@ -80,6 +82,7 @@ abstract public class AbstractTableView extends ViewPart {
 
 	/**
 	 * List of actions that can be provided for dropdown
+	 * 
 	 * @return : List of WorkbenchAction
 	 */
 	public Collection<IWorkbenchAction> getDropDownActions() {
@@ -99,6 +102,7 @@ abstract public class AbstractTableView extends ViewPart {
 	public AbstractTableView() {
 
 	}
+
 	/**
 	 * Add actions to the MenuManager
 	 */
@@ -190,9 +194,11 @@ abstract public class AbstractTableView extends ViewPart {
 	public KubeAccess getKubeAccess() {
 		return new KubeAccess(RCPUtils.getKubeConfig());
 	}
+
 	/**
-	 * Get the input object which will return the list of objects that need to 
-	 * be displayed in the table
+	 * Get the input object which will return the list of objects that need to be
+	 * displayed in the table
+	 * 
 	 * @return : List of KubeObjects
 	 */
 	public Object getInput() {
@@ -206,6 +212,5 @@ abstract public class AbstractTableView extends ViewPart {
 		}
 		return null;
 	}
-
 
 }
