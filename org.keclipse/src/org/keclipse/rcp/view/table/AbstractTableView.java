@@ -64,12 +64,16 @@ abstract public class AbstractTableView extends ViewPart {
 				_tableviewer.setInput(getInput());
 			}
 		};
-		_refresh.setImageDescriptor(Activator.getImageDescriptor("icons/refresh.png"));
+		_refresh.setImageDescriptor(Activator.getImageDescriptor("icons/page_refresh.gif"));
 		_refresh.setText("Refresh");
 		getViewSite().getActionBars().getToolBarManager().add(_refresh);
 
 	}
 
+	/**
+	 * List of actions that can be provided for dropdown
+	 * @return : List of WorkbenchAction
+	 */
 	public Collection<IWorkbenchAction> getDropDownActions() {
 		Collection<IWorkbenchAction> cacts = new ArrayList<IWorkbenchAction>();
 		return cacts;
@@ -87,7 +91,9 @@ abstract public class AbstractTableView extends ViewPart {
 	public AbstractTableView() {
 
 	}
-
+	/**
+	 * Add actions to the MenuManager
+	 */
 	protected void makeActions() {
 
 		MenuManager mmanager = new MenuManager(getClass().getSimpleName());

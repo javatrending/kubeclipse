@@ -33,5 +33,41 @@
             class="org.keclipse.rcp.view.table.KubePods"
             id="org.keclipse.rcp.view.table.KubePods">
       	</view>
+      	<view
+            name="K8 Services"
+            inject="true"
+            allowMultiple="true"
+            icon="icons/page_dynamic.gif"
+            category="org.keclipse.k8"
+            class="org.keclipse.rcp.view.table.KubeServices"
+            id="org.keclipse.rcp.view.table.KubeServices">
+      	</view>
+      	<view
+            name="K8 Endpoints"
+            inject="true"
+            allowMultiple="true"
+            icon="icons/page_alert.gif"
+            category="org.keclipse.k8"
+            class="org.keclipse.rcp.view.table.KubeEndPoints"
+            id="org.keclipse.rcp.view.table.KubeEndPoints">
+      	</view>
+      	<view
+            name="K8 PersistentVolumes"
+            inject="true"
+            allowMultiple="true"
+            icon="icons/page.gif"
+            category="org.keclipse.k8"
+            class="org.keclipse.rcp.view.table.KubePersistentVolumes"
+            id="org.keclipse.rcp.view.table.KubePersistentVolumes">
+      	</view>
+      	<view
+            name="K8 PersistentVolumeClaims"
+            inject="true"
+            allowMultiple="true"
+            icon="icons/pageflip.gif"
+            category="org.keclipse.k8"
+            class="org.keclipse.rcp.view.table.KubePersistentVolumeClaims"
+            id="org.keclipse.rcp.view.table.KubePersistentVolumeClaims">
+      	</view>
       	</extension>
 </plugin>
