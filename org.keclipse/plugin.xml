@@ -16,13 +16,22 @@
             id="org.keclipse.k8">
      	 </category>
      	 <view
-            name="Kubernetes Nodes"
+            name="K8 Nodes"
             inject="true"
             allowMultiple="true"
             icon="icons/page_refresh.gif"
             category="org.keclipse.k8"
             class="org.keclipse.rcp.view.table.KubeNodes"
             id="org.keclipse.rcp.view.table.KubeNodes">
+      	</view>
+      	<view
+            name="K8 Pods"
+            inject="true"
+            allowMultiple="true"
+            icon="icons/page_code.gif"
+            category="org.keclipse.k8"
+            class="org.keclipse.rcp.view.table.KubePods"
+            id="org.keclipse.rcp.view.table.KubePods">
       	</view>
       	</extension>
 </plugin>
