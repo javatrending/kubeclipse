@@ -36,9 +36,16 @@ import org.keclipse.rcp.RCPUtils;
  */
 abstract public class AbstractTableView extends ViewPart {
 
+	// The TableViewer behind the table view
 	protected TableViewer _tableviewer;
+	// Generic refresh action for making a call again and getting new objects
 	private Action _refresh;
 
+	/**
+	 * Label Provider
+	 * @author vibhu.pratap
+	 *
+	 */
 	public class K8LabelProvider extends ListLabelProvider {
 
 		@Override
@@ -51,11 +58,12 @@ abstract public class AbstractTableView extends ViewPart {
 			}
 		}
 	}
-
+	/**
+	 * Create the part control that will be created when the view
+	 * gets activated
+	 */
 	public void createPartControl(Composite parent) {
 		createViewer(parent);
-		// Get the content for the viewer, setInput will call getElements in the
-		// contentProvider
 		_tableviewer.setInput(getInput());
 		makeActions();
 		_refresh = new Action() {

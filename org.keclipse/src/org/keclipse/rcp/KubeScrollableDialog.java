@@ -63,7 +63,6 @@ public class KubeScrollableDialog extends TitleAreaDialog {
 		// gridData.grabExcessVerticalSpace = false; // Layout vertically, too!
 		// gridData.verticalAlignment = GridData.FILL;
 
-		System.out.println(scrollableText);
 		scrollable = new Text(composite, SWT.BORDER | SWT.V_SCROLL);
 		scrollable.setLayoutData(gridData);
 		scrollable.setText(scrollableText);
@@ -90,7 +89,6 @@ public class KubeScrollableDialog extends TitleAreaDialog {
 			@Override
 			public void widgetSelected(SelectionEvent e) {
 				close();
-				// System.out.println(scrollable.getText().toString());
 			}
 		});
 	}
