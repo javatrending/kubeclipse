@@ -1,5 +1,4 @@
-# kubeclipse
-Eclipse Plugin For Kubernetes
+# kubeclipse : Eclipse Plugin For Kubernetes
 
 To get started go to :
 
