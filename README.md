@@ -23,3 +23,7 @@
    
 
 Please try it out and revert back with question.
+
+## More Details
+
+https://www.linkedin.com/pulse/kubeclipse-kubernetes-eclipse-plugin-vibhu-pratap/
