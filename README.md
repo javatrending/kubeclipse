@@ -1,10 +1,7 @@
 # kubeclipse : Eclipse Plugin For Kubernetes
 
-To get started go to :
 
-https://github.com/vibhupratap/kubeclipse/tree/master/org.keclipse/keclipse/plugins
-
-## To get started ?
+## To get started
 1. Download the jar file from 
    ```
    https://github.com/vibhupratap/kubeclipse/tree/master/org.keclipse/keclipse/plugins
