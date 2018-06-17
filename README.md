@@ -4,17 +4,25 @@ To get started go to :
 
 https://github.com/vibhupratap/kubeclipse/tree/master/org.keclipse/keclipse/plugins
 
-and download the jar file to your eclipse plugin directory on your local host :
+## To get started ?
+1. Download the jar file from 
+   ```
+   https://github.com/vibhupratap/kubeclipse/tree/master/org.keclipse/keclipse/plugins
+   ```
 
-$ECLIPSE_HOME/plugins <<== This is where the jar file needs to be copied to.
+2. Move the downloaded jar file to your Eclipse plugin directory on your local host 
+   ```
+   $ $ECLIPSE_HOME/plugins <<== This is where the jar file needs to be copied to.
+   ```
+   Once you have copied it just restart eclipse.
 
-Once you have copied it just restart eclipse , you can go to settings page :
-
-Eclipse --> Preferences --> Kubeclipse 
-and choose the KubeConfig file for the cluster you want to connect to.
-
-You can then go and select various views and perspective to browse K8 
-objects in Table Views.
-
+3. Go to eclipse settings 
+   ```
+   Eclipse --> Preferences --> Kubeclipse
+   ```
+   and choose the KubeConfig file for the cluster you want to connect to.
+4. You can then go and select various views and perspective to browse K8 objects 
+   in Table Views.
+   
 
 Please try it out and revert back with question.
